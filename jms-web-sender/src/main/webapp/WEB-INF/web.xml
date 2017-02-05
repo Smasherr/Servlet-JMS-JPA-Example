@@ -1,0 +1,10 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>messageSendingServlet</servlet-name>
+        <servlet-class>de.smasher.test.jms_web_sender.MessageSendingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>messageSendingServlet</servlet-name>
+        <url-pattern>/sendMessage</url-pattern>
+    </servlet-mapping>
+</web-app>
